@@ -31,8 +31,7 @@ SONG_DOWNLOAD_DURATION = int(
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 
 # A name for your Music bot,𝐀𝐥𝐥 𝐃𝐞𝐬𝐢𝐠𝐧 𝐍𝐚𝐦𝐞 𝐒𝐮𝐩𝐩𝐨𝐫𝐭𝐞𝐝.
-MUSIC_BOT_NAME = "𝄟ॐ❥𝗩𝗜𝗣🍷𝗠𝗨𝗦𝗜𝗖⏤͟͟͞❥͜͡𝄟⃟"
-
+MUSIC_BOT_NAME ="🎙ᏢᎾᎠᏨᎯᏕᎿ🎙"⏤͟͟͞❥͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͜͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡͡
 # Your User ID.
 OWNER_ID = list(
     map(int, getenv("OWNER_ID", "").split())
@@ -55,8 +54,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
-    "UPSTREAM_REPO",
-    "https://github.com/THE-VIP-BOY-OP/VIP-MUSIC",
+    "UPSTREAM_REPO", "https://github.com/Sivakarthikeyan1501/VIP-MUSIC",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -96,7 +94,7 @@ YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "3"))
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 # Your Github Repo.. Will be shown on /start Command
-GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/THE-VIP-BOY-OP/VIP-MUSIC")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/Sivakarthikeyan1501/VIP-MUSIC")
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "19609edb1b9f4ed7be0c8c1342039362")
@@ -166,31 +164,31 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/16000a70fe3764def836f.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg",
+    "https://graph.org/file/fab4f82da6965511894e4.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL",
-    "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg",
+    "https://graph.org/file/02d37a673bdfbbf27a857.jpg",
 )
 
 GLOBAL_IMG_URL = getenv(
     "GLOBAL_IMG_URL",
-    "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg",
+    "https://graph.org/file/d28e5fd8d1c5151f03dac.jpg",
 )
 
 STATS_IMG_URL = getenv(
     "STATS_IMG_URL",
-    "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg",
+    "https://graph.org/file/16000a70fe3764def836f.jpg",
 )
 
 TELEGRAM_AUDIO_URL = getenv(
     "TELEGRAM_AUDIO_URL",
-    "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg",
+    "https://graph.org/file/7e2fd5344dacee190f6c8.jpg",
 )
 
 TELEGRAM_VIDEO_URL = getenv(
@@ -200,7 +198,7 @@ TELEGRAM_VIDEO_URL = getenv(
 
 STREAM_IMG_URL = getenv(
     "STREAM_IMG_URL",
-    "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg",
+    "https://graph.org/file/02d37a673bdfbbf27a857.jpg",
 )
 
 SOUNCLOUD_IMG_URL = getenv(
