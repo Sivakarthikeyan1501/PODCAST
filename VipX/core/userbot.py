@@ -67,7 +67,7 @@ class Userbot(Client):
             else:
                 self.one.name = get_me.first_name
             LOGGER(__name__).info(
-                f"🥀𝐂𝐡𝐚𝐥𝐨 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐜𝐞 𝐁𝐡𝐢 𝐃𝐨𝐧𝐞, 𝐍𝐚𝐦𝐞:- {self.one.name}"
+                f"🥀𝐔𝐧𝐠𝐚 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐜𝐞 𝐒𝐭𝐚𝐫𝐭𝐞𝐝, 𝐍𝐚𝐦𝐞:- {self.one.name}"
             )
             try:
                 await self.one.send_message(
@@ -109,7 +109,7 @@ class Userbot(Client):
                 )
                 
             LOGGER(__name__).info(
-                f"🥀𝐂𝐡𝐚𝐥𝐨 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐜𝐞 2 𝐁𝐡𝐢 𝐃𝐨𝐧𝐞, 𝐍𝐚𝐦𝐞:- {self.two.name}"
+                f"🥀𝐂𝐡𝐥𝐨 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐜𝐞 2 𝐃𝐨𝐧𝐞, 𝐍𝐚𝐦𝐞:- {self.two.name}"
             )
         if config.STRING3:
             await self.three.start()
