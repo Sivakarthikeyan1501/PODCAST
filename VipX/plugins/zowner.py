@@ -51,7 +51,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🌹 𝐕𝐈𝐏 𝐁𝐎𝐘 🌹", url=f"https://t.me/THE_VIP_BOY")
+                        "🌹 𝐅𝐔𝐍 𝐏𝐀𝐍𝐃𝐑𝐎𝐌🌹", url=f"https://t.me/SIVAKARTHIKEYAN15")
                 ]
             ]
         ),
@@ -105,7 +105,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🌹 𝐕𝐈𝐏 𝐁𝐎𝐘 🌹", url=f"https://t.me/THE_VIP_BOY")
+                        "🌹 𝐅𝐔𝐍 𝐏𝐀𝐍𝐃𝐑𝐎𝐌🌹", url=f"https://t.me/SIVAKARTHIKEYAN15")
                 ]
             ]
         ),
@@ -128,7 +128,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🌱ƨσʋяcɛ🌱", url=f"https://github.com/THE-VIP-BOY-OP/VIP-MUSIC")
+                        "🌱ƨσʋяcɛ🌱", url=f"https://github.com/Sivakarthikeyan1501/VIP-MUSIC")
                 ]
             ]
         ),
@@ -146,7 +146,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🌱ƨσʋяcɛ🌱", url=f"https://github.com/THE-VIP-BOY-OP/VIP-MUSIC")
+                        "🌱ƨσʋяcɛ🌱", url=f"https://github.com/Sivakarthikeyan1501/VIP-MUSIC")
                 ]
             ]
         ),
@@ -164,7 +164,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🌱ƨσʋяcɛ🌱", url=f"https://github.com/THE-VIP-BOY-OP/VIP-MUSIC")
+                        "🌱ƨσʋяcɛ🌱", url=f"https://github.com/Sivakarthikeyan1501/VIP-MUSIC")
                 ]
             ]
         ),
